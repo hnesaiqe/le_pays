@@ -7,3 +7,44 @@ Description: Mon deuxième thème !
 Requires at least: WordPress 5.0
 Version: 1.0
 */
+.menu {
+    /* display: flex; */
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: white;
+}
+.menu-item{
+    margin: 1%;
+}
+
+
+h1{
+    color: rgb(0, 196, 137);
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+}
+li{
+    list-style-type: none;
+}
+
+.widget{
+    margin: 10%;
+}
+
+.widget-area{
+font-size: 15px;
+color: gray;
+}
+
+.wp-calendar-table{
+    width: 100%;
+}
+.screen-reader-text{
+    display: none;
+}
+
+.nf-form-cont{
+    margin-top: 5%;
+}
