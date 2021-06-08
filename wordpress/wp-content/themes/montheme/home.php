@@ -3,7 +3,7 @@ home
 <div class="container">
 
     <div class="row text-center ">
-        <div class="col-8 ">
+        <div class="col-8">
             <h1>Articles</h1>
             <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
             <article class="post">
@@ -23,7 +23,7 @@ home
 
             <?php endwhile; endif; ?>
         </div>
-        <div class="slideBar col-4 border-left">
+        <div class="slideBar col-4 border-left bg-light">
             <?php get_sidebar(); ?>
         </div>
     </div>    

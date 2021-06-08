@@ -9,7 +9,7 @@
                 <article class="post">
                     <?php the_post_thumbnail(); ?>
 
-                    <h1><?php the_title(); ?></h1>
+                    <h1 class="text-dark"><?php the_title(); ?></h1>
 
                     <div class="post__meta">
                         <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
@@ -28,7 +28,7 @@
 
                 <?php endwhile; endif; ?>
             </div>
-            <div class="col-4 border-left text-center">
+            <div class="col-4 border-left text-center bg-light mb-3">
                 <?php get_sidebar(); ?>
             </div>
         </div>

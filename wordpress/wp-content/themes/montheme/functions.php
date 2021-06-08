@@ -14,7 +14,7 @@ function add_theme_scripts() {
     // wp_enqueue_script( 'js', get_template_directory_uri() . '/js/main.js', array ( 'jquery' ), 1.1, true);
     
     wp_enqueue_style( 'style', get_stylesheet_uri("style.css") );
-    wp_enqueue_style('bootstrapcss' , 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'); 
+    wp_enqueue_style('bootstrapcss' , 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css'); 
 
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
@@ -36,8 +36,8 @@ add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 	  //ajouter une nouvelle zone de menu à mon thème
 		register_nav_menus(array(
-            'footer-menu'=>'pied de page',
-            'main' => 'menu principale'
+            'footer-menu'	=>'pied de page',
+            'main' 			=> 'menu principale'
         ));
 		
 	
@@ -46,13 +46,13 @@ add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 		function wpb_widgets_init() {
  
 			register_sidebar( array(
-				'name' => __( 'Main Sidebar', 'wpb' ),
-				'id' => 'sidebar-1',
-				'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'wpb' ),
-				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-				'after_widget' => '</aside>',
-				'before_title' => '<h3 class="widget-title">',
-				'after_title' => '</h3>',
+				'name' 			=>	__( 'Main Sidebar', 'wpb' ),
+				'id' 			=>		'sidebar-1',
+				'description'	=> 	__( 'The main sidebar appears on the right on each page except the front page template', 'wpb' ),
+				'before_widget' => 		'<aside id="%1$s" class="widget %2$s">',
+				'after_widget' 	=> 		'</aside>',
+				'before_title' 	=> 		'<h3 class="widget-title">',
+				'after_title' 	=> 		'</h3>',
 			) );
 		 
 			register_sidebar( array(
@@ -64,9 +64,9 @@ add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 				'before_title' => '<h3 class="widget-title">',
 				'after_title' => '</h3>',
 			) );
-			}
-		 
+			}		 
 		add_action( 'widgets_init', 'wpb_widgets_init' );
+
 
         function  prefix_modify_nav_menu_args ( $args ) {
             return  array_merge ( $args , array (
