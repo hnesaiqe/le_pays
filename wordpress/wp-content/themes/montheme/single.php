@@ -7,7 +7,7 @@
                 <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 
                 <article class="post">
-                    <?php the_post_thumbnail(); ?>
+                    <!-- <?php the_post_thumbnail(); ?> -->
 
                     <h1 class="text-dark"><?php the_title(); ?></h1>
 
@@ -33,4 +33,4 @@
             </div>
         </div>
     </div>  
-  <?php get_footer(); ?>
+  <?php get_footer();?>
