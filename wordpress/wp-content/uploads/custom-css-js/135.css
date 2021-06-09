@@ -1,0 +1,56 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Ajouter votre code CSS ici.
+                     
+Par exemple:
+.exemple {
+    color: red;
+}
+
+Pour améliorer vos connaissances en CSS, visitez http://www.w3schools.com/css/css_syntax.asp
+
+Fin du commentaire */ 
+
+#menu-menu_le_pays {
+    display: flex; 
+    list-style-type: none;
+    font-size: 1.3rem; 
+  width:100%;
+    color: rgb(255, 255, 255);   
+}
+.menu-item{
+    margin: 1%;
+}
+
+
+h1{
+    color: rgb(0, 196, 137);
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+}
+li{
+    list-style-type: none;
+}
+
+.widget{
+    margin: 10%;
+}
+
+.widget-area{
+font-size: 15px;
+color: gray;
+}
+
+.wp-calendar-table{
+    width: 100%;
+}
+.screen-reader-text{
+    display: none;
+}
+
+.nf-form-cont{
+    margin-top: 5%;
+}</style>
+<!-- end Simple Custom CSS and JS -->
