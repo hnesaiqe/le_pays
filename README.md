@@ -17,7 +17,7 @@
 ### CDC
 - le_pays_cdc.pdf
 ### Maquette
-
+- Fichier maquette (page/ressources/index.html)
 ### CMS
 - Pré-requis
   - Changer le préfixe
