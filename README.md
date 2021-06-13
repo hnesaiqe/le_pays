@@ -12,7 +12,8 @@
   - Pour son système de grille
   - wp-bootstrap-navwalker() fonction qui récupère les class bootstrap
 - HTML WP
-
+## Site témoin :
+  - www.france24.com
 ### CDC
 - le_pays_cdc.pdf
 ### Maquette
@@ -22,4 +23,10 @@
   - Changer le préfixe
 - Url de l'ECF 4 :
   - http://saiqe.devweb.cfa.nc/
+## Extentions installer:
+    - FakerPress : Génére de fausses données sur votre installation WordPress.
+    - Content View : Affichez des articles, pages dans de superbes mises en page (grille, liste défilante, rétractable).
+    - Simple Custom CSS and JS : Ajoute du code CSS et JS à votre site avec l'éditeur WP.
+## Pas Fait :
+  - "LA UNE",
 
