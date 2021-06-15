@@ -14,15 +14,15 @@
 - HTML WP
 ## Site témoin :
   - www.france24.com
-### CDC
-- le_pays_cdc.pdf
-### Maquette
-- Fichier maquette (page/ressources/index.html)
 ### CMS
 - Pré-requis
   - Changer le préfixe
 - Url de l'ECF 4 :
   - http://saiqe.devweb.cfa.nc/
+### CDC
+- le_pays_cdc.pdf
+### Maquette
+- Fichier maquette (page/ressources/index.html)
 ## Extentions installer:
     - FakerPress : Génére de fausses données sur votre installation WordPress.
     - Content View : Affichez des articles, pages dans de superbes mises en page (grille, liste défilante, rétractable).
