@@ -27,8 +27,7 @@
     - FakerPress : Génére de fausses données sur votre installation WordPress.
     - Content View : Affichez des articles, pages dans de superbes mises en page (grille, liste défilante, rétractable).
     - Simple Custom CSS and JS : Ajoute du code CSS et JS à votre site avec l'éditeur WP.
-    - Events Manager : Génère des événements
+    - The Events Calendar : Génère des événements
 ## Pas Fait :
-  - "LA UNE",
-  -  Création d'un évènement
+  
 
