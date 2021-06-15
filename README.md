@@ -17,6 +17,13 @@
 ### CMS
 - Pré-requis
   - Changer le préfixe
+  - Masquer la version:
+  ```
+    function wp_version_remove_version() {
+    return '';
+    }
+    add_filter('the_generator', 'wp_version_remove_version');
+  ```  
 - Url de l'ECF 4 :
   - http://saiqe.devweb.cfa.nc/
 ### CDC
